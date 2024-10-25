@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Contact Us</title>
+    <style>
+        body{
+            background-color: rgb(3, 8, 8);
+        }
+        h2{
+            color: darkgoldenrod;
+        }
+        label{
+            color: darkgoldenrod;
+        }
+        aside{
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 20px;
+            padding-top: 60px;
+            
+        }
+        aside li{
+            list-style-type: none;
+            border: 2px solid yellow;
+            padding: 10px;
+            background-color: brown;
+        }
+       a{
+        color: aqua;
+       }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>Contact</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Your message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<aside>
+    <li><a href="https://youtu.be/GKYbk7hKk3g?si=xyBQrp7ccnHQ9fXX">videos</a></li>
+    <li><a href="./a633-51f3-417f-81c6-e67ea07a2277.mp3">Audio</a></li>
+    <li><a href="./S.RAVISANKAR_PORTFOLIO_PROJECT__DOCUMENTATION.docx">PDF-document</a>
+</aside>
+</body>
+</html>
